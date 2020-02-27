@@ -101,3 +101,42 @@ nav > a > img {
     padding: 5px 13px;
     border-radius: 5px;
 }
+
+@media (max-width: 500px) {
+    .main-container {
+        width: 100%;
+    }
+
+    nav > a > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    nav > a > span {
+        display: none;
+    }
+
+    main {
+        margin: 5px 15px;
+    }
+    
+}
+
+@media (min-width: 501px) and (max-width: 990px) {
+    .main-container {
+        width: 90%;
+    }
+
+    main {
+        margin: 5px 40px;
+    }
+
+    nav > a > img {
+        width: 30px;
+        height: 30px;
+    }
+
+    nav > a > span {
+        font-size: 12px;
+    }
+}
